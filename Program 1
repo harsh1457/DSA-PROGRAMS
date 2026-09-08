@@ -91,7 +91,8 @@ void substring(char input[]) {
     } else { 
         printf("Position entered is out of range\n"); 
     } 
-}oid reverse(char input[]) { 
+}
+void reverse(char input[]) { 
     int i; 
     int n = stringlength(input); 
     char output[50]; 
